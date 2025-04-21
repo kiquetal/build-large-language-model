@@ -19,8 +19,6 @@ Decoder: A component that takes encoded representations and generates output seq
 
 **GPT (Generative Pre-trained Transformer)**: A series of transformer-based language models developed by OpenAI that are trained on vast amounts of text data to predict the next word in a sequence. GPT models process text in a unidirectional manner (left-to-right) and are primarily designed for text generation tasks. These models can generate coherent and contextually relevant text based on prompts, making them powerful tools for various generative applications.
 
-BERT=Bi-directional encoder representation from transfomers
-GPT= Generative pre-trained for transformers
 
 BERT=specialize in mask word prediction
 GPT= generative texts (decoder)

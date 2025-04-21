@@ -11,9 +11,11 @@ Encoder: A component that processes input sequences (like text) and transforms t
 
 Decoder: A component that takes encoded representations and generates output sequences (like text). Decoders use these representations to predict tokens one at a time in a sequential manner, with each prediction potentially influencing what comes next.
 
+
 ### BERT and GPT Definitions
 
 **BERT (Bidirectional Encoder Representations from Transformers)**: A transformer-based machine learning model developed by Google that uses a bidirectional training approach to language modeling. BERT reads text input in both directions simultaneously, allowing it to understand context more effectively by considering both words that come before and after each word in a sentence. This bidirectional context helps BERT excel at understanding the meaning and relationships between words in text.
+
 
 **GPT (Generative Pre-trained Transformer)**: A series of transformer-based language models developed by OpenAI that are trained on vast amounts of text data to predict the next word in a sequence. GPT models process text in a unidirectional manner (left-to-right) and are primarily designed for text generation tasks. These models can generate coherent and contextually relevant text based on prompts, making them powerful tools for various generative applications.
 
